@@ -1,6 +1,6 @@
 {
   "apiVersion": 1,
-  "updatedAt": "2026-11-15T15:00:00Z",
+  "updatedAt": "2026-11-15T18:00:00Z",
   "extensions": [
     {
       "id": "sushiscan",
@@ -13,7 +13,8 @@
       "needsWebView": false,
       "file": "sushiscan-1.0.0.js",
       "sha256": "5295b0f5b30ab856cd44449f6745b2d6f76d436ec7f468ac8160757c5e2140d6",
-      "changelog": "Parcourir enchaîne toutes les pages de la section au scroll."
+      "changelog": "Parcourir enchaîne toutes les pages de la section au scroll.",
+      "hosts": ["sushiscan.net"]
     },
     {
       "id": "mangadex",
@@ -26,7 +27,8 @@
       "needsWebView": false,
       "file": "mangadex-1.0.0.js",
       "sha256": "23dac3f21f4de6317f06a9a79458eb603a6abeb051fd249ef69f4f8257e6c18f",
-      "changelog": "Parcourir enchaîne populaires et derniers chapitres au scroll."
+      "changelog": "Parcourir enchaîne populaires et derniers chapitres au scroll.",
+      "hosts": ["mangadex.org", "mangadex.network"]
     }
   ]
 }
